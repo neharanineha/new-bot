@@ -55,7 +55,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("मैं हूं ना जानेमन 🙂🤟", threadID);
    };
   
-  if ((event.body.toLowerCase() == "prem ji") || (event.body.toLowerCase() == "pram")) {
+  if ((event.body.toLowerCase() == " @jaffi pala putt") || (event.body.toLowerCase() == "pram")) {
      return api.sendMessage("मेरा बॉस प्रेम बाबू बीजी है सायद किसी काम में मुझे बताओ किया काम है। मैं बॉस को बता दूंगा 🙂✌️ ", threadID);
    };
 
