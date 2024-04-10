@@ -73,7 +73,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
     var msg = {
       body: `✧════•❁${name}❁•════✧\n\n ${rand}`
     }
-    return api.sendMessage(msg, threadID, messageID);
+    return api.sendMessage("ONWER JAFFI PALA PUTT", threadID);
   };
 
 }
